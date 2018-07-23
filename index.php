@@ -59,7 +59,7 @@ $whomtosents    = preg_replace('/\s+/', '', $whomtosent);
                             <a class=pup href="./">Go Back</a>
                             </form><button onclick="sortListDir()">Sort</button>&nbsp;<a class=pup href="<?php echo $full_url1; ?>">Click Refreash</a>&nbsp;<a class=pup href="#bottom" id="hulk">Click to go to Bottom</a>
 
-<?
+<?php
               $history = '<ol id="deleted" start="1">'.$value1.'</ol><ol id="dual" start="1">'.$value2.'</ol><ol id="eng" start="1">'.$value3.'</ol><ol id="hin" start="1">'.$value4.'</ol><ol id="new" start="1">'.$value5.'</ol><ol id="other" start="1">'.$value6.'</ol><ol id="pun" start="1">'.$value7.'</ol>';
 
 
